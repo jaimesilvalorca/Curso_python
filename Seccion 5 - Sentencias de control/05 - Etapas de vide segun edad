@@ -1,0 +1,13 @@
+edad = int(input('Proporciona tu edad: '))
+ciclo = None
+
+if edad < 10:
+    ciclo = 'La infancia es increible...'
+elif edad >= 10 and edad < 20:
+    ciclo = 'Muchos cambios y mucho estudio...'
+elif edad >=20 and edad <=30:
+    ciclo = 'Amor y comienza el trabajo...'
+else:
+    ciclo = 'Valor proporcionado es invalido'
+
+print(f'Su edad es la siguiente: {edad} y su ciclo de vida es: {ciclo}')
