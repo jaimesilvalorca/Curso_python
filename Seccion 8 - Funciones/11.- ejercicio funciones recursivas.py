@@ -15,9 +15,11 @@
 def descendente(numeros):
     if numeros == 0:
         return 1
+    elif numeros < 0:
+        print("Valor incorrecto")
     else:
         print(numeros)
-        numeros = numeros - 1
+        numeros -= 1
         return descendente(numeros)
             
 
