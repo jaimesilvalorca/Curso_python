@@ -6,4 +6,5 @@ miFuncion()
 miFuncion()
 miFuncion()
 
+#pass palabra reservada dentro de una funcion para declarar una funcion sin tener un contenido
 
